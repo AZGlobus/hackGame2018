@@ -1,6 +1,6 @@
 package hackGame;
 
-public interface creature extends entity {
+public interface actors extends entity {
 	void takeDamage(int hit);
 	void die();
 	void setPosition();

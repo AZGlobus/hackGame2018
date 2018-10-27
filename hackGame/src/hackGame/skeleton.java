@@ -10,6 +10,7 @@ import hackGame.*;
 
 public class skeleton extends enemy {
 	private int health, damage, sightRange, attackRange, distance;
+	BufferedImage img;
 	
 	
 	
@@ -44,7 +45,7 @@ public class skeleton extends enemy {
 	@Override
 	public void getGraphic() {
 		try {
-			BufferedImage img = ImageIO.read(new File("skeleton.jpg"));
+			img = ImageIO.read(new File("skeleton.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

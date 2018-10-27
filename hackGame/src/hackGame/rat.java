@@ -10,6 +10,7 @@ import hackGame.*;
 
 public class rat extends enemy {
 	private int health, damage, sightRange, attackRange, distance;
+	BufferedImage img;
 	
 	
 	
@@ -44,7 +45,7 @@ public class rat extends enemy {
 	@Override
 	public void getGraphic() {
 		try {
-			BufferedImage img = ImageIO.read(new File("rat.jpg"));
+			img = ImageIO.read(new File("rat.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

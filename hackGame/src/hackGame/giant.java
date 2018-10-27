@@ -10,6 +10,7 @@ import hackGame.*;
 
 public class giant extends enemy {
 	private int health, damage, sightRange, attackRange, distance;
+	BufferedImage img;
 	
 	
 	
@@ -44,7 +45,7 @@ public class giant extends enemy {
 	@Override
 	public void getGraphic() {
 		try {
-			BufferedImage img = ImageIO.read(new File("giant.jpg"));
+			img = ImageIO.read(new File("giant.jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

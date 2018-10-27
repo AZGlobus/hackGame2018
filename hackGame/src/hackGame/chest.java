@@ -1,5 +1,5 @@
 package hackGame;
 
-public interface chest {
-
+public interface chest extends nonActor {
+void generateLoot();
 }

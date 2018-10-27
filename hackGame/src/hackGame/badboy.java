@@ -1,5 +1,5 @@
 package hackGame;
 
 public interface badboy extends actors{
-	void dropLoot();
+	void generateCorpse(String monster, int lvl);
 }

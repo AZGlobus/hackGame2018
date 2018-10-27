@@ -1,5 +1,6 @@
 package hackGame;
 
-public interface corpse {
-
+public interface corpse extends nonActor{
+	void generateLoot();
+	
 }

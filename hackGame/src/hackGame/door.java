@@ -1,5 +1,5 @@
 package hackGame;
 
-public interface door {
+public interface door extends nonActor {
 
 }

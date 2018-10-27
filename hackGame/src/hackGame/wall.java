@@ -1,5 +1,5 @@
 package hackGame;
 
-public interface wall extends entity{
+public interface wall extends nonActor{
 
 }

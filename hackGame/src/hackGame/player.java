@@ -1,7 +1,15 @@
 package hackGame;
 
-public interface player extends actors{
-	void useItem();
-	void pickUpLoot();
+public class player implements actors{
+	private void useItem() {
+		
+	}
+	private void pickUpLoot() {
+		
+	}
 	
+	public void doCommand(char input) {
+		
+		
+	}
 }

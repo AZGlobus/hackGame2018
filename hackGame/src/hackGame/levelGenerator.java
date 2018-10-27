@@ -17,7 +17,7 @@ public class levelGenerator{
 		
 	}
 	
-	public entity[][] generateLevel(int width, int length, int difficulty) {
+	public static entity[][] generateLevel(int width, int length, int difficulty) {
 		entity gameMap[][] = new entity[width*tileSize][length*tileSize];
 	}
 	

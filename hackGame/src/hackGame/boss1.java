@@ -1,8 +1,7 @@
 package hackGame;
 
-public class boss1 implements badboy{
+public class boss1 extends enemy{
 public void entityRemove() {
 	
 }
-public void 
 }

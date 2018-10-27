@@ -2,17 +2,17 @@ wwwwwwwdwwwwwww
 w             w
 w             w
 w             w
+w      o      w
 w             w
 w             w
+d      c      w
 w             w
 w             w
-w             w
-w             w
-w             w
+w      o      w
 w             w
 w             w             
-w      c      w
-wwwwwwwwwwwwwww
+w             w
+wwwwwwwdwwwwwww
 
 wwwwwwwdwwwwwww
 w             w
@@ -21,11 +21,11 @@ w             w
 w             w
 w             w
 w             w
-w             w
+d      c      w
 w             w
 w             w
 w             w
 w             w
 w             w             
 w             w
-wwwwwwwwwwwwwww
+wwwwwwwdwwwwwww

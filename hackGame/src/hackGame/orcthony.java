@@ -1,5 +1,5 @@
 package hackGame;
 
-public class orcthony implements badboy{
+public class orcthony extends enemy{
 
 }

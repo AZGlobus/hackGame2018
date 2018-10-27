@@ -8,7 +8,7 @@ public class player implements actors{
 		
 	}
 	
-	public void doCommand(char input) {
+	public void up(char input) {
 		
 		
 	}

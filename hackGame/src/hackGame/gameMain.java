@@ -11,7 +11,7 @@ public class gameMain {
 		initialize();
 		while(true) {
 			objMan.updateEntities();
-			objMan.draw();
+			objMan.drawAll();
 		}
 		
 	}

@@ -23,6 +23,10 @@ public class gameObjectManager {
 		}
 	}
 	
+	public void drawAll() {
+		//todo
+	}
+	
 	public static gameObjectManager getInstance() {
 		if (instance==null) {
 			instance = new gameObjectManager();

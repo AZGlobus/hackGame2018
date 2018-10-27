@@ -1,5 +1,5 @@
 package hackGame;
 
-public interface staircase {
+public interface staircase extends nonActor{
 
 }

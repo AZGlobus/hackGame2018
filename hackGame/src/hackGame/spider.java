@@ -13,9 +13,9 @@ public class spider extends enemy {
 	
 	BufferedImage img; 
 	
-	public spider() {
+	public spider(int level) {
 	
-	health = difficulty * playerLevel * 100;
+	health = level* 100;
 	damage = 10;
 	sightRange = 10;
 	attackRange = 10;

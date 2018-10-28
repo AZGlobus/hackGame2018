@@ -1,7 +1,9 @@
 package hackGame;
 
+import java.awt.image.BufferedImage;
+
 public interface entity {
-	void getGraphic();
+	BufferedImage getGraphic();
 	void remove();
 	void update();	
 }
